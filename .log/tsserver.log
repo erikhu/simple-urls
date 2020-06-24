@@ -1,0 +1,32 @@
+Info 0    [17:58:49.965] Starting TS Server
+Info 1    [17:58:50.4] Version: 3.8.3
+Info 2    [17:58:50.4] Arguments: /home/erik/.asdf/installs/nodejs/13.3.0/bin/node /home/erik/.asdf/installs/nodejs/13.3.0/.npm/bin/tsserver --logFile /home/erik/proyectos/docker/volumes/prueba_wordpress/_data/wp-content/plugins/simple-urls/.log/tsserver.log --logVerbosity info --cancellationPipeName /tmp/d66b00c5f03b7901490e5a64f605d989/tscancellation*
+Info 3    [17:58:50.4] Platform: linux NodeVersion: 13 CaseSensitive: true
+Info 4    [17:58:50.41] Search path: /home/erik/proyectos/wordpress/simple-urls
+Info 5    [17:58:50.43] For info: /home/erik/proyectos/wordpress/simple-urls/composer.json :: No config files found.
+Info 6    [17:58:50.48] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 7    [17:59:20.575] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 1 structureChanged: true Elapsed: 30527ms
+Info 8    [17:59:20.575] Project '/dev/null/inferredProject1*' (Inferred) 
+Info 9    [17:59:20.575] 	Files (6)
+
+Info 10   [17:59:20.575] -----------------------------------------------
+Info 11   [17:59:20.950] Starting updateGraphWorker: Project: /dev/null/inferredProject1*
+Info 12   [17:59:20.954] Finishing updateGraphWorker: Project: /dev/null/inferredProject1* Version: 2 structureChanged: false Elapsed: 4ms
+Info 13   [17:59:20.954] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 14   [17:59:20.954] Structure before ensureProjectForOpenFiles:
+Info 15   [17:59:20.955] Structure after ensureProjectForOpenFiles:
+Info 16   [17:59:20.955] got projects updated in background, updating diagnostics for /home/erik/proyectos/wordpress/simple-urls/composer.json
+Info 17   [17:59:45.12] Search path: /home/erik/proyectos/wordpress/simple-urls
+Info 18   [17:59:45.12] For info: /home/erik/proyectos/wordpress/simple-urls/package.json :: No config files found.
+Info 19   [17:59:45.15] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 20   [17:59:45.20] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 1 structureChanged: true Elapsed: 5ms
+Info 21   [17:59:45.20] Project '/dev/null/inferredProject2*' (Inferred) 
+Info 22   [17:59:45.20] 	Files (6)
+
+Info 23   [17:59:45.20] -----------------------------------------------
+Info 24   [17:59:45.212] Starting updateGraphWorker: Project: /dev/null/inferredProject2*
+Info 25   [17:59:45.217] Finishing updateGraphWorker: Project: /dev/null/inferredProject2* Version: 2 structureChanged: false Elapsed: 5ms
+Info 26   [17:59:45.217] Different program with same set of files:: oldProgram.structureIsReused:: 2
+Info 27   [17:59:45.374] Structure before ensureProjectForOpenFiles:
+Info 28   [17:59:45.374] Structure after ensureProjectForOpenFiles:
+Info 29   [17:59:45.374] got projects updated in background, updating diagnostics for /home/erik/proyectos/wordpress/simple-urls/composer.json,/home/erik/proyectos/wordpress/simple-urls/package.json

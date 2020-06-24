@@ -1,0 +1,51 @@
+[17:58:50.261] Global cache location '/home/erik/.cache/typescript/3.8', safe file path '/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/typingSafeList.json', types map path /home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/typesMap.json
+[17:58:50.262] Processing cache location '/home/erik/.cache/typescript/3.8'
+[17:58:50.262] Trying to find '/home/erik/.cache/typescript/3.8/package.json'...
+[17:58:50.451] Loaded content of '/home/erik/.cache/typescript/3.8/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.480"},"devDependencies":{"@types/node":"^13.7.7"}}
+[17:58:50.451] Loaded content of '/home/erik/.cache/typescript/3.8/package-lock.json'
+[17:58:50.635] Adding entry into typings cache: 'node' => '/home/erik/.cache/typescript/3.8/node_modules/@types/node/ts3.2/index.d.ts'
+[17:58:50.636] Finished processing cache location '/home/erik/.cache/typescript/3.8'
+[17:58:50.636] Process id: 15613
+[17:58:50.636] NPM location: /home/erik/.asdf/installs/nodejs/13.3.0/bin/npm (explicit '--npmLocation' not  provided)
+[17:58:50.636] validateDefaultNpmLocation: false
+[17:58:50.636] Npm config file: /home/erik/.cache/typescript/3.8/package.json
+[17:58:50.636] Updating types-registry npm package...
+[17:58:50.636] Exec: /home/erik/.asdf/installs/nodejs/13.3.0/bin/npm install --ignore-scripts types-registry@latest
+[17:59:13.198]     Succeeded. stdout:
+    + types-registry@0.1.495
+    updated 1 package and audited 2 packages in 4.128s
+found 0 vulnerabilities
+
+
+[17:59:13.198] Updated types-registry npm package
+[17:59:20.678] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/erik/proyectos/wordpress/simple-urls/composer.json"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/erik/proyectos/wordpress/simple-urls","kind":"discover"}
+[17:59:20.692] Loaded safelist from types map file '/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/typesMap.json'
+[17:59:20.693] Explicitly included types: []
+[17:59:20.694] Typing names in '/home/erik/proyectos/wordpress/simple-urls/package.json' dependencies: ["node-wp-i18n"]
+[17:59:20.695] Inferred typings from unresolved imports: []
+[17:59:20.695] Result: {"cachedTypingPaths":[],"newTypingNames":["node-wp-i18n"],"filesToWatch":["/home/erik/proyectos/wordpress/simple-urls/package.json","/home/erik/proyectos/wordpress/simple-urls/bower_components","/home/erik/proyectos/wordpress/simple-urls/node_modules"]}
+[17:59:20.695] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["node-wp-i18n"],"filesToWatch":["/home/erik/proyectos/wordpress/simple-urls/package.json","/home/erik/proyectos/wordpress/simple-urls/bower_components","/home/erik/proyectos/wordpress/simple-urls/node_modules"]}
+[17:59:20.695] FileWatcher:: Added:: WatchInfo: /home/erik/proyectos/wordpress/simple-urls/package.json
+[17:59:20.696] DirectoryWatcher:: Added:: WatchInfo: /home/erik/proyectos/wordpress/simple-urls/bower_components
+[17:59:20.697] DirectoryWatcher:: Added:: WatchInfo: /home/erik/proyectos/wordpress/simple-urls/node_modules
+[17:59:20.697] Installing typings ["node-wp-i18n"]
+[17:59:20.698] 'node-wp-i18n':: Entry for package 'node-wp-i18n' does not exist in local types registry - skipping...
+[17:59:20.698] All typings are known to be missing or invalid - no need to install more typings
+[17:59:20.698] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:59:20.698] Response has been sent.
+[17:59:45.120] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.es5.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.dom.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/home/erik/.asdf/installs/nodejs/13.3.0/.npm/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/home/erik/proyectos/wordpress/simple-urls/package.json"],"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/erik/proyectos/wordpress/simple-urls","kind":"discover"}
+[17:59:45.121] Explicitly included types: []
+[17:59:45.122] Typing names in '/home/erik/proyectos/wordpress/simple-urls/package.json' dependencies: ["node-wp-i18n"]
+[17:59:45.123] Inferred typings from unresolved imports: []
+[17:59:45.123] Result: {"cachedTypingPaths":[],"newTypingNames":["node-wp-i18n"],"filesToWatch":["/home/erik/proyectos/wordpress/simple-urls/package.json","/home/erik/proyectos/wordpress/simple-urls/bower_components","/home/erik/proyectos/wordpress/simple-urls/node_modules"]}
+[17:59:45.123] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":["node-wp-i18n"],"filesToWatch":["/home/erik/proyectos/wordpress/simple-urls/package.json","/home/erik/proyectos/wordpress/simple-urls/bower_components","/home/erik/proyectos/wordpress/simple-urls/node_modules"]}
+[17:59:45.123] FileWatcher:: Added:: WatchInfo: /home/erik/proyectos/wordpress/simple-urls/package.json
+[17:59:45.123] DirectoryWatcher:: Added:: WatchInfo: /home/erik/proyectos/wordpress/simple-urls/bower_components
+[17:59:45.123] DirectoryWatcher:: Added:: WatchInfo: /home/erik/proyectos/wordpress/simple-urls/node_modules
+[17:59:45.123] Installing typings ["node-wp-i18n"]
+[17:59:45.123] 'node-wp-i18n':: Entry for package 'node-wp-i18n' does not exist in local types registry - skipping...
+[17:59:45.123] All typings are known to be missing or invalid - no need to install more typings
+[17:59:45.124] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"target":1,"jsx":1,"allowNonTsExtensions":true,"allowJs":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[17:59:45.124] Response has been sent.
