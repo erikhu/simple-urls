@@ -197,7 +197,6 @@ class Simple_Urls_Admin {
     public function setting_options_page_html(){
         ?>
         <div class="wrap">
-        
         <?
         if(isset($GLOBALS['_surl_post_id'])){
             ?>
@@ -257,8 +256,12 @@ class Simple_Urls_Admin {
             $from = isset($_POST['export']['from']) && $_POST['export']['from'] != ''? intval($_POST['export']['from']) : 0;
             $amount = isset($_POST['export']['amount']) && $_POST['export']['amount'] != '' ? intval($_POST['export']['amount']) : 0;
             $filename = $from.'-'.$amount.'-records.csv';
-            header( 'Content-Type: application/csv' );
-            header( 'Content-Disposition: attachment; filename="' . $filename . '";' );
+            header("Content-type: application/csv");
+            header( 'Content-Disposition: attachment; filename=' . $filename );
+            header("Cache-Control: no-cache, no-store, must-revalidate"); // HTTP 1.1
+            header("Pragma: no-cache"); // HTTP 1.0
+            header("Expires: 0"); // Proxies
+            header("Content-Transfer-Encoding: UTF-8");
             $out = fopen('php://output', 'w');
             $sql  = $wpdb->prepare("SELECT id, meta_value FROM $wpdb->posts post INNER JOIN $wpdb->postmeta meta ON post.id = meta.post_id WHERE `post_type` = 'surl' AND meta.meta_key='_surl_token' AND `id` >= %d LIMIT %d",$from, $amount);
             $results = $wpdb->get_results($sql);

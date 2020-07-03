@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: Simple URLs
+ * Plugin Name: Simple URLs (Fork)
  * Plugin URI: https://wordpress.org/plugins/simple-urls/
  * Description: Simple URLs is a complete URL management system that allows you create, manage, and track outbound links from your site by using custom post types and 301 redirects.
  * Author: Nathan Rice
